@@ -1,7 +1,180 @@
-/* For Mobile Device */
 @media screen and (max-width: 576px) {
+  .banner {
+    padding: 0 10px 0 10px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .name-info h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .name-info h2 {
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+  .contact-btn {
+    width: 145px;
+    padding: 9px 10px;
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  .dev-image img {
+    width: 100%;
+  }
+  nav {
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  nav ul li {
+    margin-left: 10px;
+    font-size: 16px;
+  }
   .about {
     padding: 35px 20px;
     margin-top: 0px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .about-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skill-section .section-title p {
+    padding: 0 20px;
+  }
+  .section-title h3 {
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+  .skill-section {
+    margin-top: 25px;
+  }
+  .skill-set {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .resume-section {
+    margin-top: 25px;
+  }
+  .resume-container {
+    margin-top: 30px;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .education h3,
+  .experience h3 {
+    font-size: 25px;
+  }
+  .resume-desc h4 {
+    font-size: 20px;
+  }
+  .resume-desc h6 {
+    font-size: 16px;
+  }
+  .contact {
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .connect h3,
+  .message h3 {
+    font-size: 25px;
+  }
+  .message form input,
+  textarea {
+    width: 90%;
+    outline: none;
+    padding: 11px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #423fae;
+  }
+  .primary-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .message form .primary-btn {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 922px) {
+  .hide {
+    display: none;
+  }
+  p {
+    font-size: 18px;
+  }
+  .about {
+    padding: 80px 55px;
+    margin-top: 0px;
+  }
+  .about-info {
+    justify-content: space-between;
+  }
+  .skill-section .section-title p {
+    padding: 0px 65px;
+  }
+  .skill-section {
+    margin-top: 25px;
+  }
+  .skill-set {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .skill-container {
+    padding: 3%;
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  .resume-section {
+    margin-top: 65px;
+  }
+  .resume-container {
+    margin-top: 80px;
+    flex-direction: column;
+    padding: 0 35px;
+  }
+  .contact {
+    gap: 28px;
+    padding: 70px 50px;
+  }
+  .connect {
+    width: 40%;
+  }
+  .message {
+    width: 60%;
+  }
+  .banner {
+    padding: 0px 0px 50px 50px;
+  }
+  .name-info {
+    width: 50%;
+  }
+  .dev-image {
+    margin-bottom: -13.5%;
+    width: 50%;
+  }
+  .dev-image img {
+    width: 100%;
+  }
+  .name-info h1 {
+    font-size: 50px;
+  }
+  .name-info h2 {
+    font-size: 36px;
+  }
+  .contact-btn {
+    width: 162px;
+    padding: 12px 27px;
+    font-size: 18px;
+    margin-left: 6px;
+  }
+  nav {
+    padding: 38px 12px 0 50px;
   }
 }
