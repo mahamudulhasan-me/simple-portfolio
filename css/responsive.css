@@ -1,0 +1,7 @@
+/* For Mobile Device */
+@media screen and (max-width: 576px) {
+  .about {
+    padding: 35px 20px;
+    margin-top: 0px;
+  }
+}
